@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <link href="style.css" rel="stylesheet">
         <!-- intégration fontawesome -->
         <script src="https://kit.fontawesome.com/574bfb0df8.js" crossorigin="anonymous"></script>
         <title>Reservia</title>
@@ -9,25 +10,29 @@
     <body>
         <div id="bloc_page">
             <header>
-                <h1><a href="#">Reservia</a></h1>
-                <nav>
+                <div id="logo_nav">
+                    <div><a href="#"><img src="images/Reservia.svg"</a></div>
+                    <nav>
                     <ul>
                         <li><a href="#">Hébergements</a></li>
                         <li><a href="#">Activités</a></li>
-                        <li><a href="#">S'inscrire</a></li>
+                        <li><a href="#" id="sinscrire">S'inscrire</a></li>
                     </ul>
-                </nav>
+                    </nav>
+                </div>
+                
                 <div id="recherche">
                     <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
                     <p>En plein centre ville ou en pleine nature</p>
                     <div id="barre_recherche">
-                        <div id="icon"> <!-- fontawesome -->
+                        <div id="icon_1">
+                            <p>?</p> <!-- fontawesome -->
                         </div>
                         <input id="input_rechercher" />
                         <div id="bouton_rechercher"><p>Rechercher</p></div>
                     </div>
                     <div id="filtres">
-                        <p>Filtres</p>
+                        <p><mark>Filtres</mark></p>
                         <div class="bouton_filtre">
                             <div id="icon"> <!-- fontawesome -->
                             </div>
@@ -65,17 +70,17 @@
                         </div>
                         <div class="carte_hebergement">
                             <h4>Hôtel du port</h4>
-                            <p>Nuit à partir de <mark>52€</mark></p>
+                            <p>Nuit à partir de 52€</p>
                             <!-- insérer les 5 étoiles -->
                         </div>
                         <div class="carte_hebergement">
                             <h4>Hôtel Les mouettes</h4>
-                            <p>Nuit à partir de <mark>76€</mark></p>
+                            <p>Nuit à partir de 76€</p>
                             <!-- insérer les 5 étoiles -->
                         </div>
                         <div class="carte_hebergement">
                             <h4>Hôtel de la mer</h4>
-                            <p>Nuit à partir de <mark>46€</mark></p>
+                            <p>Nuit à partir de 46€</p>
                             <!-- insérer les 5 étoiles -->
                         </div>
                         <div class="carte_hebergement">
@@ -85,7 +90,7 @@
                         </div>
                         <div class="carte_hebergement">
                             <h4>Hôtel chez Amina</h4>
-                            <p>Nuit à partir de <mark>96€</mark></p>
+                            <p>Nuit à partir de 96€</p>
                             <!-- insérer les 5 étoiles -->
                         </div>
                     </div>
@@ -96,17 +101,17 @@
                     <!-- fontawesome graphique -->
                     <div class="carte_hebergement_2">
                         <h4>Hôtel Le soleil du matin</h4>
-                            <p>Nuit à partir de <mark>128€</mark></p>
+                            <p>Nuit à partir de 128€</p>
                             <!-- insérer les 5 étoiles -->
                     </div>
                     <div class="carte_hebergement_2">
                         <h4>Au coeur de l'eau Chambres d'hôtes</h4>
-                            <p>Nuit à partir de <mark>71€</mark></p>
+                            <p>Nuit à partir de 71€</p>
                             <!-- insérer les 5 étoiles -->
                     </div>
                     <div class="carte_hebergement_2">
                         <h4>Hôtel Tout bleu et blanc</h4>
-                            <p>Nuit à partir de <mark>68€</mark></p>
+                            <p>Nuit à partir de 68€</p>
                             <!-- insérer les 5 étoiles -->
                     </div>
                 </div>

@@ -1,0 +1,112 @@
+/* Définition des polices personnalisées */
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Eléments principaux de la page */
+body
+{
+    background-color: #ffffff;
+    font-family: 'Raleway';
+}
+#bloc_page
+{
+    width: 1110px;
+    margin: auto;
+}
+header h2, section h3
+{
+    font-size: 1.2em;
+    margin-bottom: 0%;
+}
+p
+{
+    font-size: 0.8em;
+    margin: 5px 0 15px 0;
+}
+/* Header */
+#logo_nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+header img
+{
+    width: ;
+}
+mark
+{
+    font-weight: bold;
+    background-color: transparent;
+}
+/* Menu */
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+nav li
+{
+    margin-right: 15px;
+}
+#sinscrire
+{
+    font-weight: bold;
+    color: #0065FC;
+}
+nav a
+{
+    color: #000000;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+nav a:hover
+{
+    color: #0065FC;
+    border-top: 1px solid #0065FC;
+}
+/* Barre recherche */
+#barre_recherche
+{
+    display: flex;
+    justify-content: flex-start;
+    max-height: 40px;
+    margin: 0 0 20px 0;
+}
+#input_rechercher
+{
+    border: 1px solid #f2f2f2 ;
+}
+#icon_1
+{
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    background-color: #f2f2f2;
+}
+#bouton_rechercher
+{
+    padding: 20px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #0065FC;
+}
+/* Filtres */
+#filtres
+{
+    display: flex;
+}
+#filtres p
+{
+    margin-right: 15px;
+}
+.bouton_filtre
+{
+    margin-right: 10px;
+    border : 1px solid #f2f2f2;
+    border-radius: 25px;
+}
+/* Section */
+
