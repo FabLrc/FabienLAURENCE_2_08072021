@@ -14,7 +14,7 @@ body
 }
 #bloc_page
 {
-    width: 1110px;
+    width: 1337px;
     margin: auto;
 }
 header h2, section h3
@@ -22,7 +22,7 @@ header h2, section h3
     font-size: 1.2em;
     margin-bottom: 0%;
 }
-p
+header p
 {
     font-size: 0.8em;
     margin: 5px 0 15px 0;
@@ -33,10 +33,6 @@ p
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-}
-header img
-{
-    width: ;
 }
 mark
 {
@@ -109,4 +105,45 @@ nav a:hover
     border-radius: 25px;
 }
 /* Section */
-
+section
+{
+    display: flex;
+}
+#bloc_hebergements_filtre
+{
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    margin-right: 10px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 67%;
+    padding: 35px;
+}
+#bloc_hebergements_filtre h3
+{
+    padding: 0;
+}
+#hebergements_filtre
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#bloc_populaire
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    margin-left: 10px;
+    padding: 25px;
+}
+.carte_hebergement
+{
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 245px;
+    height: 200px;
+}
