@@ -11,6 +11,7 @@ body
 {
     background-color: #ffffff;
     font-family: 'Raleway';
+    margin: 0;
 }
 #bloc_page
 {
@@ -20,12 +21,20 @@ body
 header h2, section h3
 {
     font-size: 1.2em;
-    margin-bottom: 0%;
+    margin: 0;
+}
+header h2
+{
+    margin-top: 30px;;
 }
 header p
 {
     font-size: 0.8em;
     margin: 5px 0 15px 0;
+}
+i
+{
+    color: #0065FC;
 }
 /* Header */
 #logo_nav
@@ -69,9 +78,13 @@ nav a:hover
 #barre_recherche
 {
     display: flex;
-    justify-content: flex-start;
+    justify-content:left;
     max-height: 40px;
     margin: 0 0 20px 0;
+}
+#barre_recherche i
+{
+    color: black;
 }
 #input_rechercher
 {
@@ -101,8 +114,17 @@ nav a:hover
 .bouton_filtre
 {
     margin-right: 10px;
-    border : 1px solid #f2f2f2;
+    border : 2px solid #f2f2f2;
     border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+.bouton_filtre i
+{
+    background-color: #DEEBFE;
+    border-radius: 30px;
+    padding: 15px;
+    
 }
 /* Section */
 section
@@ -114,22 +136,18 @@ section
     background-color: #f2f2f2;
     border-radius: 25px;
     margin-right: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     flex: 67%;
     padding: 35px;
-}
-#bloc_hebergements_filtre h3
-{
-    padding: 0;
 }
 #hebergements_filtre
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    min-height: 430px;
 }
 #bloc_populaire
 {
@@ -146,4 +164,14 @@ section
     border-radius: 15px;
     width: 245px;
     height: 200px;
+}
+/* ------- Ajout des images -------- */
+#auberge_la_cannebiere
+{
+    background: url('images/hebergements/4_small/cannebiere.jpg');
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;}
+#hotel_du_port
+{
+
 }
