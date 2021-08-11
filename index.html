@@ -32,7 +32,7 @@
             <ul>
               <li><a href="#">Hébergements</a></li>
               <li><a href="#">Activités</a></li>
-              <li><a href="#" id="sinscrire">S'inscrire</a></li>
+              <a href="#" id="sinscrire">S'inscrire</a>
             </ul>
           </nav>
         </div>
@@ -40,13 +40,15 @@
         <div id="recherche">
           <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
           <p>En plein centre ville ou en pleine nature</p>
-          <div id="barre_recherche">
+          <form id="barre_recherche">
+            <span id="icon_1">
               <i class="fas fa-map-marker-alt"></i>
-            <input id="input_rechercher" />
+            </span>
+            <input id="input_rechercher" placeholder="Ville, département" />
             <div id="bouton_rechercher">
               <p>Rechercher</p>
             </div>
-          </div>
+          </form>
 <!-- Filtres -->
           <div id="filtres">
             <p><mark>Filtres</mark></p>
